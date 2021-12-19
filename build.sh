@@ -3,7 +3,7 @@
 rm -rf build install
 
 cmake -S . -B build \
--DSHARED_LIB=ON \
+-DSHARED_LIB=OFF \
 -DCMAKE_INSTALL_PREFIX=install
 
 cmake --build build -j
